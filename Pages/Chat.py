@@ -157,10 +157,10 @@ chats = {
 df = pd.DataFrame(data=chats)
 
 #sidebar
-#Page Linka in sidebar:
+#Page Links in sidebar:
 st.sidebar.title("Legal Document Analyser")
-st.sidebar.page_link(page="Home1.py", label="Home", use_container_width= True, icon="🏠")
-st.sidebar.page_link(page="Pages/chat1.py", label="Chat", use_container_width= True, icon="💬")
+st.sidebar.page_link(page="Home.py", label="Home", use_container_width= True, icon="🏠")
+st.sidebar.page_link(page="Pages/Chat.py", label="Chat", use_container_width= True, icon="💬")
 st.sidebar.page_link(page="Pages/About.py", label="About", use_container_width= True, icon="❓")
 
 #container for chat history

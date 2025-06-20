@@ -18,8 +18,8 @@ Use the sidebar to navigate between pages.
 
 col3,col4,col5 = st.columns([2.8,1,3])
 with col4:
-    st.page_link(page="Pages/chat1.py", label="Begin", use_container_width=True)
+    st.page_link(page="Pages/Chat.py", label="Begin", use_container_width=True)
 
-st.sidebar.page_link("Home1.py", label="Home", icon="🏠")
-st.sidebar.page_link("Pages/chat1.py", label="Chat", icon="💬")
+st.sidebar.page_link("Home.py", label="Home", icon="🏠")
+st.sidebar.page_link("Pages/Chat.py", label="Chat", icon="💬")
 st.sidebar.page_link("Pages/About.py", label="About", icon="❓")
